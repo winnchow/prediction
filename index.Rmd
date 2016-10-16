@@ -137,7 +137,7 @@ confusionMatrix(p, trainingSet$classe)
 ```
 
 ### Validation Set Accuracy (Out of Sample)
-Here shows the validation set accuracy. My model also performs very well with the validation set. The expected out of sample error is about 0.53%.
+Here shows the validation set accuracy. My model also performs very well with the validation set. The expected out of sample error is about 0.9%.
 
 ```{r}
 
