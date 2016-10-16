@@ -182,8 +182,8 @@ training &lt;- training[, nas]</code></pre>
 <pre><code>## [1] 53</code></pre>
 </div>
 <div id="splitting-data-into-a-training-set-and-a-validation-set" class="section level3">
-<h3>Splitting Data into a Training Set and a Validation Set</h3>
-<p>As the number of available training data is sufficiently large, the validation set approach is used. K-fold cross validation is not used (too time consuming).</p>
+<h3>Splitting Data into a Training Set and a Validation Set (cross validation)</h3>
+<p>As the number of available training data is sufficiently large, the validation set approach for cross-validation is used. K-fold cross validation is not used (too time consuming).</p>
 <pre class="r"><code>set.seed(123123123)
 train &lt;- createDataPartition(training$classe, p = 0.7, list = FALSE)
 trainingSet &lt;- training[train, ]

@@ -105,8 +105,8 @@ ncol(training)
 
 ```
 
-### Splitting Data into a Training Set and a Validation Set
-As the number of available training data is sufficiently large, the validation set approach is used. K-fold cross validation is not used (too time consuming).
+### Splitting Data into a Training Set and a Validation Set (cross validation)
+As the number of available training data is sufficiently large, the validation set approach for cross-validation is used. K-fold cross validation is not used (too time consuming).
 
 ```{r}
 
